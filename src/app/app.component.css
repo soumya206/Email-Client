@@ -1,0 +1,6 @@
+button{
+  width: 50%;
+ background-color: #008CBA;
+font-size: 26px;
+}
+button:hover {background-color: #009CBA;}
