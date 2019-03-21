@@ -1,5 +1,6 @@
 # Email-Client
-For this assignment I have used an AngularJS framework. I have also used the design patterns explained in the "Heroes" tutorial from the AngularJS website.
+For this assignment I have used the AngularJS framework. 
+I have used the design patterns explained in the "Heroes" tutorial from the AngularJS website.
 Link: https://angular.io/tutorial
 
 Design Details: 
