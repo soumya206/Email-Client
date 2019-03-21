@@ -21,6 +21,9 @@ Design Details:
  
  Used the Following Patterns:
   1. Oberavable for calling when getting data from remote server
+  2. (URL: https://5c5a21f9af3ff700140de477.mockapi.io/api/email)
   
   How to Launch Application:
     1. Use CLI: ng serve from the project home directory
+    
+ 
