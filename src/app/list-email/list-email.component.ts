@@ -9,6 +9,8 @@ import {EmailService} from '../email.service';
 })
 export class ListEmailComponent implements OnInit {
   emails: Email[];
+  selectedEmail: Email;
+  
   constructor(private emailService: EmailService) { }
 
   ngOnInit() {

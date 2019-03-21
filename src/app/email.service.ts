@@ -16,4 +16,9 @@ export class EmailService {
   getEmails(): Observable<Email[]>{
     return this.http.get<Email[]>(this.emailServerURL);
   }
+
+  getEmail(id: number):Observable<Email>{
+    const url= `${this.emailServerURL}/${id}`;
+    return this.http.get<Email>(url)
+  }
 }

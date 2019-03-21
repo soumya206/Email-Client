@@ -1,4 +1,5 @@
     <label>To:<input [(ngModel)]="email.to" type="text"/></label>
+    <br>
     <label>Subject: <input [(ngModel)]="email.subject" type="text"/></label>
     <textarea [(ngModel)]="email.text" placeholder="Type your message here"></textarea>
     <button ng-click='onSend()' type="button">Send</button>
