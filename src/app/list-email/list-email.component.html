@@ -1,8 +1,8 @@
 <table>
-  <tr *ngFor="let email of emails"
-    >
+  <tr *ngFor="let email of emails">
         <td><input type="checkbox" ng-model="foo"></td>
         <td>{{email.to}}</td>
         <a routerLink="/detail/{{email.id}}"><td>{{email.subject}}</td></a>
   </tr>
 </table>
+<button type="button">Delete</button>

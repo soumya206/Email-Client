@@ -3,4 +3,5 @@ button{
  background-color: #008CBA;
 font-size: 26px;
 }
+button {border-radius: 8px;}
 button:hover {background-color: #009CBA;}
