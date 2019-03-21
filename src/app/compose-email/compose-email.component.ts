@@ -12,4 +12,8 @@ export class ComposeEmailComponent implements OnInit {
   ngOnInit() {
   }
 
+  onSend():void{
+    //pass email object into the email service to be implemented
+  }
+
 }
